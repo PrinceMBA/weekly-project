@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+
+img{
+    float: left;
+}
+
+.myname{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 0px 30px;
+    background-image: url(image/UntriedLightEidolonhelvum-size_restricted.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightblue;
+    height: 353px;
+    background-color: lightblue;
+}
+
+.box1{
+    display: flex;
+    align-content: space-between;
+}
+
+.box1> div{
+    margin-bottom: 10px;
+    height: 160px;
+    width: 250px;
+    margin: 5px 0px 5px 15px;
+}
+
+.box2{
+    margin: 5px 0px 0px 140px;
+}
